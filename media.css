@@ -1,0 +1,577 @@
+@media (max-width: 1030px) {
+    body {
+        background-color: #fff;
+    }
+    .wrapper-main-section {
+        max-width: 1030px;
+        margin: 0 auto;
+    }
+    .wrapper {
+        max-width: 1030px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .header-rest {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .header-inputs .big-input {
+        width: 180px;
+        }
+    .wrapper-main-section {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 960px) {
+    .wrapper-main-section {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .wrapper {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .place-info {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        /* bottom: 40px; */
+        background-color: #fff;
+        padding: 30px 40px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 940px) {
+    .wrapper-main-section {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+    .wrapper {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .main-rest-photoplaceholder img {
+        background-image: url(static/page-head-md.jpg);
+    }
+    .food-option-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px 10px;
+        padding-bottom: 70px;
+     }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        padding-left: 7px;
+    }
+    .wrapper-main-section {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .wrapper {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .wrapper-main-big {
+        padding: 0;
+    }
+    
+    .header {
+        padding: 8px 10px;
+    }
+    .header-rest {
+        padding: 8px 10px;
+    }
+    .header-inputs .big-input {
+        width: 140px;
+    }
+
+    .search-section {
+        padding-left: 7px;
+    }
+    .cards {
+        display: grid;
+        gap: 15px 32px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .card {
+       width: 368px;
+    }
+
+    .card-description {
+        padding-left: 7px;
+    }
+
+    .card-photo-1 {
+        background-image: url(static/md/card1-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+    .card-photo-2 {
+        background-image: url(static/md/card2-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+    .card-photo-3 {
+        background-image: url(static/md/card3-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+    .card-photo-4 {
+        background-image: url(static/md/card4-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+    .card-photo-5 {
+        background-image: url(static/md/card5-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+    .card-photo-6 {
+        background-image: url(static/md/card6-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+    .card-photo-7 {
+        background-image: url(static/md/card7-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+    .card-photo-8 {
+        background-image: url(static/md/card8-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+    .card-photo-9 {
+        background-image: url(static/md/card9-md.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 368px;
+        height: 256px;
+    }
+
+    .main-rest-photoplaceholder {
+        min-width: 768px;
+        min-height: 364px;
+        background-image: url(static/page-head.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    .footer-logo-big-box {
+        padding: 40px 0 30px 25px;
+        border: 0;  
+        border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 30px;
+    }
+    .socials-col {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+    }
+    .form-lang {
+        width: 180px;
+        position: relative;
+    }
+    .footer-techs {
+        padding-left: 15px;
+    }
+
+    .wrapper-main-section {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .wrapper-rest-big {
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .main-info {
+        position: relative;
+    }
+    .place-info {
+        /* left: 200px; */
+        position: absolute;
+        /* bottom: 5px; */
+        background-color: #fff;
+        padding: 30px 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lg-text {
+        font-size: 25px;
+    }
+    .place-extras {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    .place-card-price {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .food-options {
+        display: flex;
+        gap: 10px;
+        color: #626262;
+        font-weight: 400;
+        font-size: 16px;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+    .food-option-view {
+        padding-left: 18px;
+    }
+    .header {
+        padding-left: 12px;
+        padding-top: 10px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width: 650px) {
+    .wrapper-main-section {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .wrapper-rest-big {
+        max-width: 650px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header-inputs .big-input {
+        width: 60px;
+        }
+    .food-options {
+        display: none;
+    }
+    .main-info {
+        position: relative;  
+    }
+    .place-info {
+        position: absolute;
+        left: 160px;
+        bottom: -20px;
+        z-index: 7;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .food-option-view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 610px) {
+    .wrapper-main-section {
+        max-width: 610px;
+        margin: 0 auto;
+    }
+    .wrapper-rest-big {
+        max-width: 610px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header-inputs {
+        display: none;  
+    }
+    .cards {
+        display: grid;
+        gap: 5px 5px;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        place-items: center;
+    }
+    h1 {
+        padding-left: 112px;
+    }
+    .search-section {
+        padding-left: 112px;
+    }
+
+}
+
+@media (max-width: 440px) {
+    .option-photo-1 {
+        min-width: 102px;
+        min-height: 102px;
+        background-image: url(static/sm/page-1-food-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .option-photo-2 {
+        min-width: 102px;
+        min-height: 102px;
+        background-image: url(static/sm/page-2-food-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .option-photo-3 {
+        min-width: 102px;
+        min-height: 102px;
+        background-image: url(static/sm/page-3-food-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .option-photo-4 {
+        min-width: 102px;
+        min-height: 102px;
+        background-image: url(static/sm/page-4-food-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .option-photo-5 {
+        min-width: 102px;
+        min-height: 102px;
+        background-image: url(static/sm/page-5-food-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .option-photo-6 {
+        min-width: 102px;
+        min-height: 102px;
+        background-image: url(static/sm/page-6-food-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .food-option-head {
+        font-size: 14px;
+    }
+    .food-option-desc {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    h1 {
+        padding-left: 24px;
+    }
+    .search-section {
+        padding-left: 24px;
+    }
+    .logo {
+        padding-left: 14px;
+    }
+    .busket {
+        display: none;
+    }
+    .footer-extra-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        padding-bottom: 50px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 35px;
+        padding-left: 15px;
+    }
+    .socials-col {
+        padding: 0;
+    }
+    .footer-techs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        padding-bottom: 40px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .wrapper-main-section {
+        max-width: 320px;
+        margin: 0 auto;
+        background-color: none;
+    }
+    .wrapper {
+        max-width: 320px;
+        margin: 0 auto;
+        background-color: none;
+        padding: 0;
+    }
+
+    .main-info {
+        position: relative;  
+    }
+    .place-info {
+        position:absolute;
+        left: 12px;
+        bottom: -70px;
+        
+        max-width: 308px;
+    }
+    .card {
+        width: 308px;
+    }
+    .card-photo-1 {
+        background-image: url(static/sm/card1-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+    .card-photo-2 {
+        background-image: url(static/sm/card2-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+    .card-photo-3 {
+        background-image: url(static/sm/card3-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+    .card-photo-4 {
+        background-image: url(static/sm/card4-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+    .card-photo-5 {
+        background-image: url(static/sm/card4-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+    .card-photo-6 {
+        background-image: url(static/sm/card4-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+    .card-photo-7 {
+        background-image: url(static/sm/card4-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+    .card-photo-8 {
+        background-image: url(static/sm/card4-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+    .card-photo-9 {
+        background-image: url(static/sm/card4-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        z-index: -7;
+        width: 308px;
+        height: 246px;
+    }
+
+    .cards {
+        display: grid;
+        gap: 5px 5px;
+        grid-template-columns: repeat(1, 1fr);
+   
+    }
+
+    .card-description {
+        width: 308px;
+    }
+
+    .header-inputs {
+        display: none;  
+    }
+    .busket {
+        display: none;
+    }
+    .logo {
+        padding-left: 19px;
+    }
+
+    .header-right-nav button {
+        padding: 10px 7px;
+    }
+
+    .main-rest-photoplaceholder {
+        min-width: 320px;
+        min-height: 255px;
+        background-image: url(static/sm/page-head-sm.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .lg-text {
+      margin-bottom: 40px;
+    }
+
+    .food-option-view {
+        font-size: 22px;
+        font-weight: 400;
+        padding-top: 90px;
+    }
+
+    .place-extras {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .place-card-time {
+       margin: 0;
+    }
+}
